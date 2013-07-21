@@ -1,0 +1,4 @@
+response format
+responseFormat
+
+	^ 'json'

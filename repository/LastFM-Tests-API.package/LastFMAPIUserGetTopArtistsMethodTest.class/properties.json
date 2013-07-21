@@ -1,0 +1,14 @@
+{
+	"category" : "LastFM-Tests-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LastFMAPIUserGetTopArtistsMethodTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

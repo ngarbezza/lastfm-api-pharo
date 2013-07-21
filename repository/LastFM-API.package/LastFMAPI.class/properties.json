@@ -1,0 +1,14 @@
+{
+	"category" : "LastFM-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LastFMAPI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

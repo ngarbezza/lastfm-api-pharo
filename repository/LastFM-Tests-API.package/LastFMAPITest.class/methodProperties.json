@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01ARequestToTheRealAPI" : "NahuelGarbezza 7/21/2013 12:16",
+		"testAPIReturnsTheAPIKey" : "NahuelGarbezza 7/21/2013 11:01",
+		"testAPIReturnsTheResponseFormat" : "NahuelGarbezza 7/21/2013 11:57",
+		"testAPIReturnsTheRootUrl" : "NahuelGarbezza 7/21/2013 11:00" } }

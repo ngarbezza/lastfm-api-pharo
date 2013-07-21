@@ -1,0 +1,16 @@
+{
+	"category" : "LastFM-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"responseString",
+		"response" ],
+	"name" : "LastFMAPIUserGetTopArtistsMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

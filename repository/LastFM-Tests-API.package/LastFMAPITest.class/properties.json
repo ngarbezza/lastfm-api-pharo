@@ -1,0 +1,14 @@
+{
+	"category" : "LastFM-Tests-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LastFMAPITest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
