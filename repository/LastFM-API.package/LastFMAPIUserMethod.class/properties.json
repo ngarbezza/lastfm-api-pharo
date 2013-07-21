@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LastFMAPIUserGetTopArtistsMethod",
+		"username",
+		"responseString",
+		"response" ],
+	"name" : "LastFMAPIUserMethod",
 	"pools" : [
 		 ],
-	"super" : "LastFMAPIUserMethod",
+	"super" : "Object",
 	"type" : "normal" }

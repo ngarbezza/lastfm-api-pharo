@@ -1,0 +1,14 @@
+{
+	"category" : "LastFM-Tests-API",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"expectedResponseString" ],
+	"name" : "LastFMAPIUserGetRecentTracksMethodTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

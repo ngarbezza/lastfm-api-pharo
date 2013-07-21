@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedRecentTracks" : "NahuelGarbezza 7/21/2013 16:15",
+		"expectedRecentTracksWithNowPlayingTrack" : "NahuelGarbezza 7/21/2013 16:15",
+		"get:" : "NahuelGarbezza 7/21/2013 16:08",
+		"testItBuildsAListOfScrobblingsBasedOnTheResultsOfASinglePage" : "NahuelGarbezza 7/21/2013 16:55",
+		"testItReturnsTheMethodName" : "NahuelGarbezza 7/21/2013 15:28" } }

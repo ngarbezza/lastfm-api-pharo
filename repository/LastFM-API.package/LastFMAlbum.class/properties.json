@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LastFMAPIUserGetTopArtistsMethod",
+		"name",
+		"musicBrainzId" ],
+	"name" : "LastFMAlbum",
 	"pools" : [
 		 ],
-	"super" : "LastFMAPIUserMethod",
+	"super" : "Object",
 	"type" : "normal" }

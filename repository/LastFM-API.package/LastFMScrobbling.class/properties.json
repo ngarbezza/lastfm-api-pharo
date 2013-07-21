@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LastFMAPIUserGetTopArtistsMethod",
+		"date",
+		"track" ],
+	"name" : "LastFMScrobbling",
 	"pools" : [
 		 ],
-	"super" : "LastFMAPIUserMethod",
+	"super" : "Object",
 	"type" : "normal" }

@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LastFMAPIUserGetTopArtistsMethod",
+		"title",
+		"artist",
+		"album",
+		"streamable",
+		"musicBrainzId",
+		"url" ],
+	"name" : "LastFMTrack",
 	"pools" : [
 		 ],
-	"super" : "LastFMAPIUserMethod",
+	"super" : "Object",
 	"type" : "normal" }
