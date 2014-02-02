@@ -1,4 +1,4 @@
 clock
 clock: aClock
 
-	clock := aClock
+	^ clock := aClock
