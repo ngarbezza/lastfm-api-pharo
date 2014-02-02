@@ -4,6 +4,13 @@
 	"instance" : {
 		"expectedRecentTracks" : "NahuelGarbezza 7/21/2013 16:15",
 		"expectedRecentTracksWithNowPlayingTrack" : "NahuelGarbezza 7/21/2013 16:15",
+		"fromUnixTime:" : "NahuelGarbezza 2/2/2014 09:30",
 		"get:" : "NahuelGarbezza 7/21/2013 16:08",
+		"now" : "NahuelGarbezza 2/2/2014 09:31",
+		"setUp" : "NahuelGarbezza 2/2/2014 09:28",
+		"tearDown" : "NahuelGarbezza 2/2/2014 09:29",
 		"testItBuildsAListOfScrobblingsBasedOnTheResultsOfASinglePage" : "NahuelGarbezza 7/21/2013 16:55",
-		"testItReturnsTheMethodName" : "NahuelGarbezza 7/21/2013 15:28" } }
+		"testItDoesNotSetNowPlayingForAnyTrackIfItNotPresentInTheResponse" : "NahuelGarbezza 2/2/2014 09:43",
+		"testItReturnsTheMethodName" : "NahuelGarbezza 7/21/2013 15:28",
+		"testItSetsNowDateForAListOfScrobblingsWithANowPlayingTrack" : "NahuelGarbezza 2/2/2014 09:21",
+		"testItSetsNowPlayingFlagCorrectly" : "NahuelGarbezza 2/2/2014 09:34" } }

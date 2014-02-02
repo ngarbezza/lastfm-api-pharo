@@ -1,7 +1,7 @@
 {
 	"category" : "LastFM-API",
 	"classinstvars" : [
-		 ],
+		"clock" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

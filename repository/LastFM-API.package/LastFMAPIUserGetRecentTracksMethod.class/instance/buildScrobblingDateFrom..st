@@ -1,4 +1,4 @@
 private - result
 buildScrobblingDateFrom: aDictionary
 
-	^ DateAndTime fromUnixTime: (aDictionary at: 'uts')
+	^ self class clock fromUnixTime: (aDictionary at: 'uts')

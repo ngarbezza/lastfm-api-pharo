@@ -1,4 +1,4 @@
-as yet unclassified
+list of scrobblings
 testItBuildsAListOfScrobblingsBasedOnTheResultsOfASinglePage
 
 	| method result |

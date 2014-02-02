@@ -1,11 +1,14 @@
 {
 	"class" : {
-		 },
+		"clock" : "NahuelGarbezza 2/2/2014 09:27",
+		"clock:" : "NahuelGarbezza 2/2/2014 09:26",
+		"defaultClock" : "NahuelGarbezza 2/2/2014 09:27" },
 	"instance" : {
-		"buildScrobblingDateFrom:" : "NahuelGarbezza 7/21/2013 17:04",
-		"buildScrobblingFrom:" : "NahuelGarbezza 7/21/2013 17:04",
+		"buildScrobblingDateFrom:" : "NahuelGarbezza 2/2/2014 09:25",
+		"buildScrobblingFrom:" : "NahuelGarbezza 2/2/2014 09:36",
 		"buildTrackAlbumFrom:" : "NahuelGarbezza 7/21/2013 17:03",
 		"buildTrackArtistFrom:" : "NahuelGarbezza 7/21/2013 17:02",
 		"buildTrackFrom:" : "NahuelGarbezza 7/21/2013 17:03",
 		"name" : "NahuelGarbezza 7/21/2013 15:30",
+		"nowPlayingFlagFrom:" : "NahuelGarbezza 2/2/2014 09:39",
 		"result" : "NahuelGarbezza 7/21/2013 16:59" } }

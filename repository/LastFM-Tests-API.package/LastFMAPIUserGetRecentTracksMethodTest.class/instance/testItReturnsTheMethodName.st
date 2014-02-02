@@ -1,4 +1,4 @@
-as yet unclassified
+method name
 testItReturnsTheMethodName
 
 	| method |

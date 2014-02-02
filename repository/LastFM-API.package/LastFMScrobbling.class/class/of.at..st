@@ -1,4 +1,4 @@
 instance creation
 of: aLastFMTrack at: aDateAndTime 
 
-	^ self new initializeOf: aLastFMTrack at: aDateAndTime
+	^ self of: aLastFMTrack at: aDateAndTime nowPlaying: false

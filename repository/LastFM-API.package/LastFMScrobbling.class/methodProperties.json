@@ -1,7 +1,9 @@
 {
 	"class" : {
-		"of:at:" : "NahuelGarbezza 7/21/2013 16:36" },
+		"of:at:" : "NahuelGarbezza 2/2/2014 09:40",
+		"of:at:nowPlaying:" : "NahuelGarbezza 2/2/2014 09:40" },
 	"instance" : {
 		"date" : "NahuelGarbezza 7/21/2013 16:31",
-		"initializeOf:at:" : "NahuelGarbezza 7/21/2013 16:36",
+		"initializeOf:at:nowPlaying:" : "NahuelGarbezza 2/2/2014 09:41",
+		"nowPlaying" : "NahuelGarbezza 2/2/2014 09:42",
 		"track" : "NahuelGarbezza 7/21/2013 16:37" } }
