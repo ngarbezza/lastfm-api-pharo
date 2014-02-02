@@ -1,0 +1,16 @@
+{
+	"category" : "LastFM-GUI-Spec",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"scrobblings",
+		"fetchScrobblings",
+		"username" ],
+	"name" : "LastFMGUISpecRecentScrobblings",
+	"pools" : [
+		 ],
+	"super" : "ComposableModel",
+	"type" : "normal" }
