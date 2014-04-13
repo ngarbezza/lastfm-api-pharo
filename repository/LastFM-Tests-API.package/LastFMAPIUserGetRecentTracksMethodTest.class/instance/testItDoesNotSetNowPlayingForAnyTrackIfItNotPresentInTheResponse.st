@@ -1,11 +1,11 @@
 now playing
 testItDoesNotSetNowPlayingForAnyTrackIfItNotPresentInTheResponse
 
-	| method result |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
+	| result |
+	apiCall := self recentTracksApiCall.
 	expectedResponseString := self expectedRecentTracks.
-	method performOn: self.
 
-	result := method result.
+	apiCall performOn: self.
+	result := apiCall result.
 
 	result do: [ :scrobbling | self deny: scrobbling nowPlaying ]

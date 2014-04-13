@@ -1,9 +1,9 @@
 pagination
 testItReturnsTheResultsPerPageDefaultTen
 
-	| method |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
+	apiCall := self recentTracksApiCall.
 	expectedResponseString := self expectedRecentTracks.
-	method performOn: self.
 
-	self assert: method resultsPerPage equals: 10
+	apiCall performOn: self.
+
+	self assert: apiCall resultsPerPage equals: 10

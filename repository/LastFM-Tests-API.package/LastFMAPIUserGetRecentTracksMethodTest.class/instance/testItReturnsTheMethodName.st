@@ -1,7 +1,6 @@
 method name
 testItReturnsTheMethodName
 
-	| method |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
-
-	self assert: method name equals: 'user.getrecenttracks'
+	self
+		assert: self recentTracksApiCall name
+		equals: 'user.getrecenttracks'

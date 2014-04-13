@@ -1,12 +1,12 @@
 list of scrobblings
 testItBuildsAListOfScrobblingsBasedOnTheResultsOfASinglePage
 
-	| method result |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
+	| result |
+	apiCall := self recentTracksApiCall.
 	expectedResponseString := self expectedRecentTracks.
-	method performOn: self.
+	apiCall performOn: self.
 
-	result := method result.
+	result := apiCall result.
 	self
 		assert: result size equals: 10;
 		assert: (result allSatisfy: [ :scrobbling | scrobbling isKindOf: LastFMScrobbling ]);

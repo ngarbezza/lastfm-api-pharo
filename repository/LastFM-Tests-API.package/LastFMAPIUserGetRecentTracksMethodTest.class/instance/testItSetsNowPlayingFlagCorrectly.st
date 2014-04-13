@@ -1,12 +1,12 @@
 now playing
 testItSetsNowPlayingFlagCorrectly
 
-	| method result |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
+	| result |
+	apiCall := self recentTracksApiCall.
 	expectedResponseString := self expectedRecentTracksWithNowPlayingTrack.
-	method performOn: self.
+	apiCall performOn: self.
 
-	result := method result.
+	result := apiCall result.
 
 	self assert: result first nowPlaying.
 	result allButFirstDo: [ :scrobbling | self deny: scrobbling nowPlaying ]

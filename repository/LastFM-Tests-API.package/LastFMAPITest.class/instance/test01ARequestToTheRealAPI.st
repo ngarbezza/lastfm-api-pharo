@@ -1,8 +1,7 @@
 requests
 test01ARequestToTheRealAPI
 
-	| method |
-	method := LastFMAPIUserGetTopArtistsMethod for: 'NeverABrokenMan'.
-	method perform.
-	
-	self assert: (method response includesKey: 'topartists')
+	apiCall := LastFMAPIUserGetTopArtistsMethod for: 'NeverABrokenMan'.
+	apiCall perform.
+
+	self assert: (apiCall response includesKey: 'topartists')

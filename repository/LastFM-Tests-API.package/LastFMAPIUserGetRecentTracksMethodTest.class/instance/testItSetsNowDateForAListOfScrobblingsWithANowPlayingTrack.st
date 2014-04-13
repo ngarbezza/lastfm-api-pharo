@@ -1,11 +1,11 @@
 now playing
 testItSetsNowDateForAListOfScrobblingsWithANowPlayingTrack
 
-	| method result |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user'.
+	| result |
+	apiCall := self recentTracksApiCall.
 	expectedResponseString := self expectedRecentTracksWithNowPlayingTrack.
-	method performOn: self.
+	apiCall performOn: self.
 
-	result := method result.
+	result := apiCall result.
 
 	self assert: result first date < DateAndTime now

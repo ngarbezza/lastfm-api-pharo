@@ -1,7 +1,6 @@
 pagination
 testTheResultsPerPageIsIncludedInTheRequestUrlAsLimitParameter
 
-	| method |
-	method := LastFMAPIUserGetRecentTracksMethod for: 'user' resultsPerPage: 5.
+	apiCall := LastFMAPIUserGetRecentTracksMethod for: 'user' resultsPerPage: 5.
 
-	self assert: (method url includesSubstring: '&limit=5')
+	self assert: (apiCall url includesSubstring: '&limit=5')
